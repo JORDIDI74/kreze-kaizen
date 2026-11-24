@@ -1584,7 +1584,7 @@ function actualizarUI() {
   if (p) alternarHoja(false);
   document.documentElement.style.setProperty('--extra', p ? '-12px' : '0px');
   $('#flot').style.bottom = p ? `calc(var(--sab) + 62px)` : '';
-  if (innerWidth >= 900) $('#flot').style.bottom = '';
+  if (innerWidth >= 900) $('#flot').style.bottom = p ? '70px' : ''; // en paseo, por encima de los botones de las salas
   SE.ROOMS.forEach(r => { if (r.hi) r.hi.visible = !p && r.id === seleccion; });
   if (p && !avisado) { avisado = true; mostrarAviso('Toca el suelo para caminar y arrastra para mirar alrededor'); }
 }

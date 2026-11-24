@@ -9,12 +9,16 @@ Web estática: la landing del servicio y dos visores 3D de ejemplo. No necesita 
 | `index.html` | Landing del servicio (logos de Kreze y Kaizen incluidos dentro del archivo). |
 | `visores/local-esquina/index.html` | Visor 3D del local en esquina, planta calle. Sin rentas ni dirección. |
 | `visores/local-esquina/visor-sotano.html` | Mismo local, sótano. Se abre desde la ficha de la planta calle. |
+| `visores/local-esquina/edificio.html` | El edificio en 3D: fachada, plantas que se separan y superficies por zona. |
+| `visores/local-esquina/informe-rentas.html` | Informe de rentas de ejemplo (caso real): rentas por unidad, comparables, paso de peatones y operadores. |
 | `visores/bar-restaurante/index.html` | Visor 3D del bar-restaurante en dos niveles. Sin dirección ni titular. |
 
-Los visores llevan `noindex`: los buscadores no los listan. La landing sí se puede indexar.
+Los visores y el informe llevan `noindex`: los buscadores no los listan. La landing sí se puede indexar.
 
 ## Direcciones
 
 - Landing: https://jordidi74.github.io/kreze-kaizen/
 - Local en esquina: https://jordidi74.github.io/kreze-kaizen/visores/local-esquina/
+- Edificio: https://jordidi74.github.io/kreze-kaizen/visores/local-esquina/edificio.html
+- Informe de rentas de ejemplo: https://jordidi74.github.io/kreze-kaizen/visores/local-esquina/informe-rentas.html
 - Bar-restaurante: https://jordidi74.github.io/kreze-kaizen/visores/bar-restaurante/
